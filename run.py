@@ -2,8 +2,6 @@ import cv2
 import numpy as np
 import time
 from pynput.keyboard import Key, Controller
-#import urllib
-#import requests
 keyboard = Controller()
 cap = cv2.VideoCapture(0+cv2.CAP_DSHOW)
 while True:
